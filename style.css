@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(66, 248, 112, 0.5)40%,rgba(66, 248, 112, 0.5)40%), url(111.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.table{
+    height: 100%;
+    width: 100%;
+}
+.row1{
+    width:30px;
+    height: 30px;
+}
+.row1 img{
+    width: 120px;
+    height: 120px;
+}
+.row2 ul li a{
+    text-decoration: none;
+    color:chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+}
+ul li a:hover{
+    color: rgb(255, 252, 80);
+}
+.row4{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
